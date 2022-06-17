@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f0f0;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+}
+.one {
+  background-color: hsl(31, 77%, 52%);
+  padding: 10px;
+  color: white;
+}
+.two {
+  background-color: hsl(184, 100%, 22%);
+  padding: 10px;
+  color: white;
+}
+.three {
+  background-color: hsl(179, 100%, 13%);
+  padding: 18px;
+  color: white;
+}
+button {
+  background-color: azure;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-top: 1em;
+  padding: 1em;
+}
+h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: hsl(0, 0%, 95%);
+}
